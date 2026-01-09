@@ -1,5 +1,5 @@
 export default defineContentScript({
-    matches: ["<all_urls>"],
+    matches: ["*://*/*"],
     main() {
         watchAndReplace(document.body, [
             {
@@ -96,7 +96,7 @@ function watchAndReplace(root: Node, replaces: Replace[]) {
         let changed = false;
 
         for (const replacer of compiledReplaces) {
-            text = text.replace(replacer.match, (match, offset) => {
+            text = text.replace(replacer.match, (match, offset, str) => {
                 if (node.nodeValue === replacer.to) return match;
 
                 const prevText = text[offset - 1];
