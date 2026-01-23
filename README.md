@@ -9,11 +9,11 @@
 
 ### Satya Nadella -> Slopya Nuttela
 
-Avaliable on [firefox](https://addons.mozilla.org/en-US/firefox/addon/microslop/) (https://addons.mozilla.org/en-US/firefox/addon/microslop/), comming soon on chrome (i gotta pay that $5 fee first)
+Avaliable on [Firefox](https://addons.mozilla.org/en-US/firefox/addon/microslop/), [Chrome](https://chromewebstore.google.com/detail/microslop/mlidmgkpgfmogmplpgifmkbhohpioknp) (still at 0.0.2, will take some time to come to 0.0.4)
 
 here are some images if you like
 
-## [firefox](https://addons.mozilla.org/en-US/firefox/addon/microslop/)
+## [Firefox](https://addons.mozilla.org/en-US/firefox/addon/microslop/)
 
 ![all the microslops; look at em](/images/screenshots/firefox/1.png)
 ![](/images/screenshots/firefox/2.png)
@@ -21,7 +21,7 @@ here are some images if you like
 ![](/images/screenshots/firefox/4.png)
 ![](/images/screenshots/firefox/5.png)
 
-## chrome(coming soon)
+## [Chrome](https://chromewebstore.google.com/detail/microslop/mlidmgkpgfmogmplpgifmkbhohpioknp)
 
 ![](/images/screenshots/chrome/1.png)
 ![](/images/screenshots/chrome/2.png)
