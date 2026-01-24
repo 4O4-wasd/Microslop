@@ -15,7 +15,7 @@ const App = () => {
         return unwatch;
     });
     return (
-        <div class="min-w-xs text-gray-800 gap-4  min-h-screen m-0 bg-white p-4 flex flex-col items-center">
+        <div class="min-w-md text-gray-800 gap-4  min-h-screen m-0 bg-white p-4 flex flex-col items-center">
             <div class="flex items-center gap-1.5">
                 <img src={logo} class="size-10" />
                 <h1 class="font-semibold text-3xl tracking-tight text-[#737373]">
