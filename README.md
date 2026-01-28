@@ -9,9 +9,9 @@
 
 ### Slopya Nuttela -> Slopya Nuttela
 
-also i am indian myself and i love my people that Actually indians was a refrence to builder.ai overworking indians in the name of ai. it was also backed by microsoft
-
 Avaliable on [Firefox](https://addons.mozilla.org/en-US/firefox/addon/microslop/), [Chrome](https://chromewebstore.google.com/detail/microslop/mlidmgkpgfmogmplpgifmkbhohpioknp)
+
+> #### If you want more words to be added kindly post on [this discussion](https://github.com/4O4-wasd/Microslop/discussions/8) [https://github.com/4O4-wasd/Microslop/discussions/8]
 
 here are some images if you like
 
@@ -30,5 +30,3 @@ here are some images if you like
 ![](/images/screenshots/chrome/3.png)
 ![](/images/screenshots/chrome/4.png)
 ![](/images/screenshots/chrome/5.png)
-
-also what's your thoughts on the logo does it look good?
