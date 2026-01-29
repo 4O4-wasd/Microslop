@@ -82,10 +82,9 @@ function watchAndReplace(root: Node, replaces: ReplacerType[]) {
 
                 const prevText = text[offset - 1];
                 const afterText = text[offset + match.length];
-
+                const afterDot = text[offset + match.length + 1];
                 if (
-                    afterText === "." ||
-                    (prevText === "." && afterText === ".")
+                    (afterText === "." && afterDot && /[a-z0-9]/i.test(afterDot)) || (prevText === "." && afterText === ".")
                 ) {
                     return match;
                 }

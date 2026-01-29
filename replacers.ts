@@ -13,20 +13,32 @@ export const replacers = [
         enabled: true,
     },
     {
-        from: "Satya Nadella",
-        to: "Slopya Nuttela",
-        ignorePrefix: ["@", "#"],
-        enabled: true,
-    },
-    {
         from: "Satya Narayana Nadella",
         to: "Slopya Narayana Nuttela",
         ignorePrefix: ["@", "#"],
         enabled: true,
     },
     {
+        from: "Satya Nadella",
+        to: "Slopya Nuttela",
+        ignorePrefix: ["@", "#"],
+        enabled: true,
+    },
+    {
         from: "Artificial Intelligence",
         to: "Actually Indians",
+        ignorePrefix: ["@", "#"],
+        enabled: true,
+    },
+    {
+        from: "Satya",
+        to: "Slopya",
+        ignorePrefix: ["@", "#"],
+        enabled: true,
+    },
+    {
+        from: "Nadella",
+        to: "Nuttela",
         ignorePrefix: ["@", "#"],
         enabled: true,
     },
