@@ -20,7 +20,7 @@ export const replacers = [
     },
     {
         from: "Satya Narayana Nadella",
-        to: "Slopya Narayana Nuttela",
+        to: "Slopya Nayarana Nuttela",
         ignorePrefix: ["@", "#"],
         enabled: true,
     },
@@ -35,17 +35,17 @@ export const replacers = [
 
     {
         from: "Copilot",
-        to: "Slopilot",
+        to: "Cockpilot",
         ignorePrefix: ["@", "#"],
     },
     {
         from: "Windows",
-        to: "Bindoj",
+        to: "Weendos",
         ignorePrefix: ["@", "#"],
     },
     {
         from: "Xbox",
-        to: "GreedYbox",
+        to: "Shitbox",
         ignorePrefix: ["@", "#"],
     },
     {
@@ -55,7 +55,7 @@ export const replacers = [
     },
     {
         from: "OneDrive",
-        to: "CloudTumor",
+        to: "LameDrive",
         ignorePrefix: ["@", "#"],
     },
     {
