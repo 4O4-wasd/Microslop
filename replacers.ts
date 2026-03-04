@@ -78,4 +78,34 @@ export const replacers = [
         to: "DegenAI",
         ignorePrefix: ["@", "#"],
     },
+    {
+        from: "Excel",
+        to: "Exslop",
+        ignorePrefix: ["@", "#"],
+    },
+    {
+        from: "PowerPoint",
+        to: "PowerSlop",
+        ignorePrefix: ["@", "#"],
+    },
+    {
+        from: "OneNote",
+        to: "NoteSlop",
+        ignorePrefix: ["@", "#"],
+    },
+    {
+        from: "Outlook",
+        to: "Sloplook",
+        ignorePrefix: ["@", "#"],
+    },
+    {
+        from: "SharePoint",
+        to: "SlopPoint",
+        ignorePrefix: ["@", "#"],
+    },
+    {
+        from: "Access",
+        to: "Slopccess",
+        ignorePrefix: ["@", "#"],
+    },
 ] satisfies ReplacerType[];
