@@ -19,7 +19,7 @@ const Replacer = ({ from, to, enabled }: ReplacerType) => {
             class="border-2 p-2 gap-1 rounded-lg text-sm font-semibold items-baseline text-left shadow-xs flex flex-col border-gray-200 hover:bg-gray-200 cursor-pointer"
             onClick={toggleEnabled}
             title={
-                to === "Actually Indians" ?
+                from === "Artificial Intelligence" ?
                     "I am not a racist. Don't Be A Racist"
                 :   undefined
             }
@@ -40,7 +40,7 @@ const Replacer = ({ from, to, enabled }: ReplacerType) => {
                 {from} -&gt; {to}
             </span>
             <span class="opacity-70 text-xs max-w-md">
-                {to === "Actually Indians" && (
+                {from === "Artificial Intelligence" && (
                     <>
                         Actually Indians is a reference to when builder.ai was
                         overworking indians in the name of AI and it was backed
