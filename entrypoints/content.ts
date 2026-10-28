@@ -35,7 +35,12 @@ function watchAndReplace(root: Node, replaces: ReplacerType[]) {
                     )
                 :   null;
 
-            return { match, ignore, to: replacer.to };
+            return {
+                match,
+                ignore,
+                to: replacer.to,
+                matchBeforePeriod: replacer.matchBeforePeriod,
+            };
         });
 
     const quickCheckPattern = new RegExp(
@@ -83,10 +88,7 @@ function watchAndReplace(root: Node, replaces: ReplacerType[]) {
                 const prevText = text[offset - 1];
                 const afterText = text[offset + match.length];
 
-                if (
-                    afterText === "." ||
-                    (prevText === "." && afterText === ".")
-                ) {
+                if (!replacer.matchBeforePeriod && afterText === ".") {
                     return match;
                 }
 

@@ -2,6 +2,7 @@ export type ReplacerType = {
     from: string;
     to: string;
     ignorePrefix?: string[];
+    matchBeforePeriod?: boolean;
     enabled?: boolean;
 };
 
@@ -26,8 +27,8 @@ export const replacers = [
     },
     {
         from: "Artificial Intelligence",
-        to: "Actually Indians",
-        ignorePrefix: ["@", "#"],
+        to: "Super Intelligence previously (Actually Indians)",
+        matchBeforePeriod: true,
         enabled: true,
     },
 
@@ -77,5 +78,11 @@ export const replacers = [
         from: "GenAI",
         to: "DegenAI",
         ignorePrefix: ["@", "#"],
+    },
+    {
+        from: "AI",
+        to: "SI",
+        matchBeforePeriod: true,
+        enabled: true,
     },
 ] satisfies ReplacerType[];
